@@ -28,13 +28,9 @@
 </head>
 <body>
         <div style="text-align: center;padding-top: 250px;">
-            <form action="http://localhost:8080/java_servlet_jack/hello3" method="GET">
+            
                 <div>
-                    请输入手机号码：<input name="telphone" type="text" /><br>
-                    <br>
-                    请输入短信内容：<input name="context" type="text" /><br>
-                    <br>
-                    发送短信：<input id="sub" type="submit" value="提交" /><br>
+                     hello world
                 </div>
             </form>
         </div>
