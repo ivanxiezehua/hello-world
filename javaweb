@@ -1,0 +1,42 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Jack
+  Date: 2021/2/24/024
+  Time: 16:11
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<style type="text/css">
+    #login {
+        width: 450px;
+        height: 100px;
+        margin: 126px auto;
+    }
+
+    #btn {
+        margin-left: 100px;
+        margin-top: -25px;
+        width: 120px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+</style>
+<head>
+    <title>servlet</title>
+</head>
+<body>
+        <div style="text-align: center;padding-top: 250px;">
+            <form action="http://localhost:8080/java_servlet_jack/hello3" method="GET">
+                <div>
+                    请输入手机号码：<input name="telphone" type="text" /><br>
+                    <br>
+                    请输入短信内容：<input name="context" type="text" /><br>
+                    <br>
+                    发送短信：<input id="sub" type="submit" value="提交" /><br>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
